@@ -1,0 +1,27 @@
+{
+  "name": "florida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "rm -fr build",    
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cdk": "^9.2.4",
+    "@angular/material": "^9.2.4",
+    "@neo4j/graphql": "^2.5.9",
+    "apollo-server": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^16.6.0",
+    "neo4j-driver": "^4.4.0"
+  }
+}
